@@ -69,3 +69,21 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+a:focus{
+  outline: 4px solid black;
+}
+
+.skip-link{
+  position:absolute;
+  top:-40px;
+  left:0;
+  background: #BF1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus{
+  top:0;
+}
